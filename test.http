@@ -1,0 +1,56 @@
+# POST http://localhost:5001/user/update_user
+# Content-Type: application/json
+
+# {
+   
+#      "_id" : "605635f40387c7082ea0e6a0",
+#      "phone":"99999999999999"
+    
+# }
+
+
+# POST http://localhost:5001/user/constant
+# Content-Type: application/json
+
+# {
+   
+#      "hash" : "8ae55933153268b289891692b0d58552f04d2b59a508001a58e0766c9341238f",
+#      "password":"123456",
+#      "role":"partner"
+    
+    
+# }
+
+
+POST http://localhost:5001/deposit/constinsert
+Content-Type: application/json
+Cookie: "access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJOb29iQ29kZXIiLCJzdWIiOiI2MGE5MzQxZTVkNTU2Y2M5ODE3YWNlYTUiLCJpYXQiOjE2MjE4ODAxMzMsImV4cCI6MTYyMTg4MzczM30.9EpYavFJgbXwy_ets9yzGsQZzb8jOmWUk7s6T6d8HYs"
+
+{    
+   
+     "hash" : "TGidRPtdiWXqmoU9wRJzw7es4ZY9nHLRvf",
+     "id":"60b1497e64f8b75d8ae1f7c9",
+     "amount":0.01
+    
+}
+
+
+# POST http://localhost:5001/user/profile
+# Content-Type: application/json
+
+# {
+   
+#      "id" : "605635f40387c7082ea0e6a0"
+    
+    
+# }
+
+# POST http://localhost:5001/user/login
+# Content-Type: application/json
+
+# {
+    
+#      "username" : "ancey",
+#     "password":"123456"
+    
+# }
